@@ -13,8 +13,8 @@ public class SprintBootApplication {
         SpringApplication.run(SprintBootApplication.class, args);
     }
 
-    @GetMapping("/")
-    public String helloWorld(){
-        return "hello world";
-    }
+//    @GetMapping("/")
+//    public String helloWorld(){
+//        return "hello world";
+//    }
 }
